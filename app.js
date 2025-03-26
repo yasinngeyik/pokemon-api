@@ -97,8 +97,7 @@ const updateFavoritesList = () => {
     divFavorite.innerHTML = `
       <img src="${pokemon.pic}" alt="${pokemon.name}" class="w-24 h-24 mb-2">
       <h3 class="text-sm font-semibold">${pokemon.name}</h3>
-    `;
-
+    `; git
     favoritesList.appendChild(divFavorite);
   });
 };
