@@ -5,15 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="flex flex-col">
-      <div class="flex flex-col">
-        <label for="name" class="mb-1 text-sm font-medium text-gray-700">Adınız</label>
-        <input type="text" id="name" placeholder="Adınızı girin"
-          class="px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 transition"/>
-      </div>
-      saaas
+    <div
+      id="divInput"
+      class="mt-8 max-w-md mx-auto p-6 bg-white shadow-lg rounded-lg"
+    >
+      <label
+        for="username"
+        class="block text-2xl font-semibold text-gray-800 mb-2"
+        >POKEMON NAME</label
+      >
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search"
+        name="username"
+        class="w-full px-2 py-2 border-2 border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:border-indigo-300 placeholder-gray-300 transition duration-300 ease-in-out"
+      />
+    </div>
+
+    <div id="characterContainer"></div>
 
     <script src="app.js"></script>
   </body>
