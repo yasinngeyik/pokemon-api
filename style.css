@@ -1,25 +1,22 @@
-body{
-    box-sizing: border-box;
-        justify-content: space-around;
-        align-items: center;
-      background-color: #099797;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+body {
+  box-sizing: border-box;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #099797;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-
-
-
 
 /* animation */
 @keyframes slideIn {
-    from {
-      transform: translateX(-100%);
-    }
-    to {
-      transform: translateX(0);
-    }
+  from {
+    transform: translateX(-100%);
   }
-  .animate-slide-in {
-    animation: slideIn 0.5s ease-out;
+  to {
+    transform: translateX(0);
   }
+}
+.animate-slide-in {
+  animation: slideIn 0.5s ease-out;
+}

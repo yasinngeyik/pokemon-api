@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class=" text-white flex flex-col items-center p-6">
-    <div class="flex">
-      <div id="favoritesPanel" class="bg-gray-800 w-64 p-4 overflow-y-auto transition-all duration-500 ease-in-out transform -translate-x-full lg:-translate-x-0">
-        <h2 class="text-xl text-center text-green-500 mb-4">Favorite Pokémon</h2>
-        <div id="favoritesList" class="flex flex-col space-y-4"></div>
-      </div>
-  <div class=""></div>
-      <div class="container mx-auto p-4 ">
-        <div class="flex justify-between items-center mb-4">
-          <input id="searchInput" type="text" placeholder=" Search Pokémon " class="p-2 rounded bg-gray-800 text-white">
-        </div>
-        <div id="charactersContainer" class="flex flex-wrap justify-center mb-4"></div>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="text-white flex flex-col items-center p-6">
+  <div class="flex">
+    <div id="favoritesPanel"
+      class="bg-gray-800 w-64 p-4 overflow-y-auto transition-all duration-500 ease-in-out transform -translate-x-full lg:-translate-x-0">
+      <h2 class="text-xl text-center text-green-500 mb-4">
+        Favorite Pokémon
+      </h2>
+      <div id="favoritesList" class="flex flex-col space-y-4"></div>
     </div>
-    
-    <script src="app.js"></script>
-  </body>
+    <div class=""></div>
+    <div class="container mx-auto p-4">
+      <div class="flex justify-between items-center mb-4">
+        <input id="searchInput" type="text" placeholder=" Search Pokémon " class="p-2 rounded bg-gray-800 text-white" />
+      </div>
+      <div id="charactersContainer" class="flex flex-wrap justify-center mb-4"></div>
+    </div>
+  </div>
+  <div class=""></div>
+  <script src="app.js"></script>
+</body>
+
 </html>
